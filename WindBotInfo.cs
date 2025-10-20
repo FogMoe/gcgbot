@@ -17,7 +17,7 @@ namespace WindBot
         public bool Chat { get; set; }
         public WindBotInfo()
         {
-            Name = "WindBot";
+            Name = "GCGBot";
             Deck = null;
             DeckFile = null;
             Dialog = "default";

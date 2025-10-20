@@ -94,7 +94,7 @@ namespace WindBot.Game.AI
         public void SendDeckSorry(string card)
         {
             if (card == "DECK")
-                InternalSendMessageForced(new[] { "Deck illegal. Please check the database of your YGOPro and WindBot." });
+                InternalSendMessageForced(new[] { "Deck illegal." });
             else
                 InternalSendMessageForced(_deckerror, card);
         }

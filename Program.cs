@@ -15,7 +15,7 @@ namespace WindBot
 
         internal static void Main(string[] args)
         {
-            Logger.WriteLine("WindBot starting...");
+            Logger.WriteLine("GCGBot starting...");
 
             Config.Load(args);
 
@@ -58,7 +58,7 @@ namespace WindBot
             if (!File.Exists(absolutePath))
             {
                 Logger.WriteErrorLine("Can't find cards database file.");
-                Logger.WriteErrorLine("Please place cards.cdb next to WindBot.exe or Bot.exe .");
+                Logger.WriteErrorLine("Please place cards.cdb next to GCGBot.exe or Bot.exe .");
                 Logger.WriteLine("Press any key to quit...");
                 Console.ReadKey();
                 System.Environment.Exit(1);
@@ -90,8 +90,8 @@ namespace WindBot
                 MainServer.AuthenticationSchemes = AuthenticationSchemes.Anonymous;
                 MainServer.Prefixes.Add("http://+:" + ServerPort + "/");
                 MainServer.Start();
-                Logger.WriteLine("WindBot server start successed.");
-                Logger.WriteLine("HTTP GET http://127.0.0.1:" + ServerPort + "/?name=WindBot&host=127.0.0.1&port=7911 to call the bot.");
+                Logger.WriteLine("GCGBot server start successed.");
+                Logger.WriteLine("HTTP GET http://127.0.0.1:" + ServerPort + "/?name=GCGBot&host=127.0.0.1&port=7911 to call the bot.");
                 while (true)
                 {
 #if !DEBUG

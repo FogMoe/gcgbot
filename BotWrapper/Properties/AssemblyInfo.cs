@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("BotWrapper")]
-[assembly: AssemblyDescription("The Bot.exe wrapper of WindBot.")]
+[assembly: AssemblyDescription("The Bot.exe wrapper of GCGBot.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("IceYGO")]
-[assembly: AssemblyProduct("WindBot")]
-[assembly: AssemblyCopyright("Copyright © IceYGO 2015-2025")]
+[assembly: AssemblyCompany("FOGMOE")]
+[assembly: AssemblyProduct("GCGBot")]
+[assembly: AssemblyCopyright("Copyright © FOGMOE")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

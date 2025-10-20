@@ -38,7 +38,7 @@
     <StartupObject>BotWrapper.BotWrapper</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>WindBot.ico</ApplicationIcon>
+    <ApplicationIcon>gcgbot.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="gcgbot.ico" />
     <Content Include="WindBot.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

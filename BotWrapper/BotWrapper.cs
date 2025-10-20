@@ -20,8 +20,8 @@ namespace BotWrapper
         {
             ProcessStartInfo startInfo = new ProcessStartInfo();
             startInfo.UseShellExecute = false;
-            startInfo.WorkingDirectory = Path.GetFullPath("WindBot");
-            startInfo.FileName = startInfo.WorkingDirectory + "\\WindBot.exe";
+            startInfo.WorkingDirectory = Path.GetFullPath("GCGBot");
+            startInfo.FileName = startInfo.WorkingDirectory + "\\GCGBot.exe";
 
             if (args.Length == 3)
             {
@@ -37,7 +37,7 @@ namespace BotWrapper
                     arg = GetRandomBot(randomFlag);
                     if (arg == "")
                     {
-                        MessageBox((IntPtr)0, "Can't find random bot with this flag!\n\nA totally random bot will appear instead.", "WindBot", MB_ICONERROR);
+                        MessageBox((IntPtr)0, "Can't find random bot with this flag!\n\nA totally random bot will appear instead.", "GCGBot", MB_ICONERROR);
                     }
                 }
                 arg = arg.Replace("'", "\"");
@@ -55,7 +55,7 @@ namespace BotWrapper
             }
             catch
             {
-                MessageBox((IntPtr)0, "WindBot can't be started!", "WindBot", MB_ICONERROR);
+                MessageBox((IntPtr)0, "GCGBot can't be started!", "GCGBot", MB_ICONERROR);
             }
         }
 

@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WindBot</RootNamespace>
-    <AssemblyName>WindBot</AssemblyName>
+    <AssemblyName>GCGBot</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -37,7 +37,7 @@
     <StartupObject>WindBot.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>WindBot.ico</ApplicationIcon>
+    <ApplicationIcon>gcgbot.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -200,7 +200,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="gcgbot.ico" />
     <Content Include="WindBot.ico" />
+    <Content Include="ygopro.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
